@@ -6,6 +6,7 @@ print "Suganthi";
 ## Update rows in database
 print "\n To update password of an existing user : ";
 print "\n Enter email ";
+print "\n Enter email111 ";
 $email = <>;
 chomp($email);
 print "Enter new password";
