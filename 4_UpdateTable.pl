@@ -12,6 +12,7 @@ chomp($email);
 print "Enter new password";
 $password = <>;
 chomp($password);
+chomp($password1);
 $sth = $dbh->prepare("update users set password = ? where email = ?");
 $sth->execute($password, $email) or die $DBI::errstr;
 $sth->finish();
