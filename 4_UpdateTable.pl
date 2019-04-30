@@ -2,7 +2,7 @@ use DBI;
 
 $dbh = DBI->connect( "dbi:ODBC:beemail") || die "Cannot connect:     $DBI::errstr";
 
-
+print "Suganthi";
 ## Update rows in database
 print "\n To update password of an existing user : ";
 print "\n Enter email ";
